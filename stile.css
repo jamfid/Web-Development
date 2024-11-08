@@ -1,0 +1,35 @@
+* { margin: 0; padding: 0; box-sizing: border-box;}
+body {width: 100%; overflow: auto; color: #f4cb96; background-color: #000;
+  font-family: "Quicksand", sans-serif; font-size: 25px; text-align: center;}
+header {overflow: hidden; text-align: left;}
+header img {float: left; height: 200px; width: 200px}
+hr {border: solid 1px #f4cb96}
+p {padding: 70px;}
+#maintitle {padding-top: 30px;}
+#intro {float: left; height: 300px; width:50%;}
+#bloccoCitazioni {font-style: italic; font-family: "Marck Script", cursive; float:left;
+  height: 300px; width:50%; margin-bottom: 15px;}
+#citazione {font-size: 25px; padding: 20px; margin-top: 30px; margin-right: 20px;}
+#autore {position: relative; top: 10px; left: 100px;}
+.immagine {width: 100%}
+#inizio {height:500px; margin-bottom: 50px}
+#regole {height: 300px; margin: 80px;}
+.pulsante {background-color: #f4cb96; border: none; padding: 20px 36px; text-decoration: none;
+  margin: 4px 2px; cursor: pointer;}
+.pulsante {transition-duration: 0.4s;}
+.pulsante:hover {background-color: #000; color: #f4cb96;};
+#pezzi {float:left; width: 100%; height: 500px; margin: 70px}
+.icona {margin-left: 50px; margin-right: 50px; height: 100px; width: 50px}
+#torre {height: 140px}
+#descrizionePezzi {height: 450px; margin: 50px}
+#test {float: left; height: 500px; width: 100%; margin-top: 50px;}
+#domanda, #risposta {margin: 50px}
+#doveContinuare {margin: 70px}
+a {color: #e69340}
+a:link {text-decoration: none;}
+a:visited {text-decoration: none;}
+a:hover {text-decoration: underline;}
+#logoInferiore {height: 100px; width: 100px}
+footer {background-color: #764726; font-size: 70%; height: 300px;}
+footer div {padding: 40px; width: 33%;float: left;}
+#info, #contatti {margin-top: 60px}

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang='it'>
+  <head>
+    <meta charset='UTF-8'/>
+    <title>EasyChess!</title>
+    <script src="script.js"></script>
+    <link rel='stylesheet' href='stile.css'/>
+    <link rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap"/>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Marck+Script&display=swap"
+    rel="stylesheet"/>
+  </head>
+  <body>
+    <header>
+      <img id="logoSuperiore" src="media/logo.gif" alt="Logo"/>
+      <div id="maintitle">
+        <h1>EasyChess!</h1>
+        <h2>La tua prima guida agli scacchi</h2>
+      </div>
+    </header>
+    <div id="intro">
+      <p>Sei sempre stato affascinato dagli scacchi ma non hai mai avuto occasione
+        di imparare? <strong>Questo è il posto giusto per te</strong>: con pochi
+        semplici passi sarai in grado di giocare la tua prima partita!</p>
+    </div>
+    <div id="bloccoCitazioni">
+      <blockquote id= "citazione"></blockquote>
+      <cite id= "autore"></cite>
+    </div>
+    <img class="immagine" src="media/scacchiera.jpeg" alt=""/>
+    <div id="inizio">
+      <div id="regole">
+        <h1 id="titoloRegola"></h1>
+        <p id="regola"></p>
+      </div>
+      <div id="pulsantiRegole">
+        <input type="button" class="pulsante" id="indietroRegola" value="Indietro"/>
+        <input type="button" class="pulsante" id="avantiRegola" value="Avanti"/>
+      </div>
+    </div>
+    <div id="pezzi">
+      <h1>Scopri i pezzi</h1>
+      <div id="icone">
+        <input type="image" class="icona" id="pedone" src="media/pedone.png" alt="Pedone"/>
+        <input type="image" class="icona" id="torre" src="media/torre.png" alt="Torre"/>
+        <input type="image" class="icona" id="cavallo" src="media/cavallo.png" alt="Cavallo"/>
+        <input type="image" class="icona" id="alfiere" src="media/alfiere.png" alt="Alfiere"/>
+        <input type="image" class="icona" id="donna" src="media/donna.png" alt="Donna"/>
+        <input type="image" class="icona" id="re" src="media/re.png" alt="Re"/>
+      </div>
+      <div id="descrizionePezzi">
+        <h2 id="nomePezzo"></h2>
+        <p id="descrizionePezzo"></p>
+      </div>
+    </div>
+    <img class="immagine" src="media/scacchiera2.jpeg" alt=""/>
+    <div id="test">
+      <h1>Testa i tuoi progressi</h1>
+      <div id="domanda">
+        <p>Sei pronto a giocare la tua prima partita? <br/> Mettiti alla prova
+         rispondendo ad alcune domande!</p>
+      </div>
+      <div id="risposta">
+        <div id="vero"></div>
+        <div id="falso"></div>
+      </div>
+      <div id="pulsantiTest"></div>
+    </div>
+     <div id="doveContinuare">
+       <h1>Dove Continuare?</h1>
+       <p> Vuoi saperne di più? Esistono molte risorse online per approfondire le tue
+         conoscenze teoriche: la <a href="https://it.wikipedia.org/wiki/Scacchi">pagina
+          Wikipedia sugli Scacchi</a> è un buon punto di partenza! <br/><br/>Ma non
+          dimenticare: per diventare un bravo scacchista bisogna soprattutto <em>giocare</em>!
+          Su <a href="https://www.chess.com/">Chess.com</a> potrai trovare non solo
+          esercizi e guide interattive, ma anche tanti giocatori (dai principianti
+          ai più esperti) pronti a sfidarti sul campo di battaglia!</p>
+     </div>
+     <img id="logoInferiore" src="media/logo.gif" alt="Logo"/>
+     <hr/>
+     <footer>
+       <div id="info">
+         Il sito <em>EasyChess!</em> è stato realizzato da Giacomo Fidone come progetto per
+         l'esame di Fondamenti di Informatica.
+       </div>
+       <div id="fonti">
+         I contenuti informativi del sito sono originali ed in parte tratti dalla
+         <a href="https://it.wikipedia.org/wiki/Scacchi">relativa pagina wikipedia</a>.
+         Il logo e le icone sono stati realizzati con <a href="https://www.canva.com/it_it/">Canva</a>,
+         mentre l'immagine (divisa in due parti) è stata presa da
+         <a href="https://www.sport24h.it/lezioni-di-scacchi-zen-capitolo-3-il-piano/">qui</a>.
+         <br/><br/> Il file HTML ed il file CSS sono stati correttamente validati. Le parti
+         del codice JavaScript riprese dalla dispensa sono state opportunamente evidenziate.
+       </div>
+       <div id="contatti">
+         Contatti:
+         <br/>
+         <a href="mailto:g.fidone1@studenti.unipi.it">g.fidone1@studenti.unipi.it</a>
+       </div>
+     </footer>
+  </body>
+</html>
